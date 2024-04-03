@@ -9,6 +9,9 @@ class Halaman1View extends StatelessWidget {
       appBar: AppBar(
         title: Text('Aplikasi ku'),
       ),
+      body: Center(
+        child:Text("Hallo world")
+      ),
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
         BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
