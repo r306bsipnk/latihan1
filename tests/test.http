@@ -1,0 +1,10 @@
+### test simpan kamar
+POST http://127.0.0.1:8000/api/kamar  HTTP/1.1
+content-type: application/json
+
+{
+    "nomor_kamar": "A02",
+    "deskripsi_kamar": "Kamar kos Lengkap",
+    "fasilitas": "Ruang 3x3 Tidak ada tempat tidur",
+    "status": "KOSONG", 
+}
