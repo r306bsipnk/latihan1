@@ -1,0 +1,11 @@
+### TEST lihat data pengguna
+GET http://127.0.0.1:81/api/pengguna
+
+### TEST lihat data pengguna
+POST http://127.0.0.1:81/api/pengguna/login
+Content-Type: application/json
+
+{
+    "email": "david.green@example.com",
+    "password": "secret"
+}
