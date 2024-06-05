@@ -4,6 +4,9 @@
     pkgs.nodePackages.firebase-tools
     pkgs.jdk17
     pkgs.unzip
+    pkgs.php82
+    pkgs.php82Packages.composer
+    pkgs.nodejs_20
   ];
   idx.extensions = [
     
