@@ -5,12 +5,12 @@ class Halaman1View extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
       appBar: AppBar(
-        title: Text('Aplikasi ku'),
+        title: Text('Aplikasi kuy'),
       ),
       body: Center(
-        child:Text("Hallo world")
+        child:Text("Hallo world nih")
       ),
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
