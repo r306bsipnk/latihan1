@@ -10,7 +10,14 @@ class Halaman1View extends StatelessWidget {
         title: Text('Aplikasi ku'),
       ),
       body: Center(
-        child:Text("Hallo world")
+        child:Column(
+          children: [
+            Text("Hallo world"),
+            ElevatedButton(onPressed: (){
+                
+            }, child: Text('Tekan saya'))
+          ],
+        )
       ),
       bottomNavigationBar: BottomNavigationBar(items: [
         BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
