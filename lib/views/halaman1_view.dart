@@ -7,11 +7,12 @@ class Halaman1View extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
       appBar: AppBar(
-        title: Text('Aplikasi ku'),
+        title: Text('Aplikasi kuy'),
       ),
       body: Center(
+
         child:Column(
           children: [
             Text("Hallo world"),
